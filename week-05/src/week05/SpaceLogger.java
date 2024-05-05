@@ -2,6 +2,9 @@ package week05;
 
 public class SpaceLogger implements Logger {
 
+		// takes the string input and puts a space in between each character
+		// example H e l l o 
+		
 		@Override
 		public void log(String log) {
 				String result = "";
@@ -13,6 +16,9 @@ public class SpaceLogger implements Logger {
 			System.out.println(result);
 		}
 
+		
+		// takes the string input and puts a space in between each character and puts "ERROR: " in front of the given string
+		// example ERROR: H e l l o
 		@Override
 		public void error(String error) {
 			String result = "";

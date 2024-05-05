@@ -1,13 +1,27 @@
 package week05;
 
+
 public class AsteriskLogger implements Logger {
 
+	
+	
+		//puts three asterisks behind and in front of the given string
+		// example ***Hello***
+	
 		@Override
 		public void log(String log) {
 			
 			System.out.println("***" + log + "***");
 		}
 
+		
+		
+		// creates a box around the input string made out of asterisks and is dynamic to the length of the word. 
+		//	example	******************
+		//			***Error: Hello***
+		//			******************
+
+		
 		@Override
 		public void error(String error) {
 			
